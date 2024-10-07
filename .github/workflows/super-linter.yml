@@ -26,4 +26,5 @@ jobs:
           FIX_HTML_PRETTIER: false
           FIX_VUE_PRETTIER: false
           VALIDATE_CPP: true
+          VALIDATE_CLANG_FORMAT: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
