@@ -19,4 +19,11 @@ jobs:
         uses: super-linter/super-linter@v7.1.0
         env:
           DEFAULT_BRANCH: origin/main
+          FIX_CLANG_FORMAT: true
+          FIX_CSS_PRETTIER: false
+          FIX_DOTNET_SLN_FORMAT_WHITESPACE: false
+          FIX_GRAPHQL_PRETTIER: false
+          FIX_HTML_PRETTIER: false
+          FIX_VUE_PRETTIER: false
+          VALIDATE_CPP: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
